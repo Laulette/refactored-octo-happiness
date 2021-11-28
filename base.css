@@ -1,6 +1,6 @@
 body {
 	font-family: Helvetica, sans-serif;
-	background-color: rgb(204, 102, 0);
+	background-color: rgb(251, 229, 208);
 	text-align: center;
 }
 
@@ -29,4 +29,8 @@ h1 {
 :any-link {
 	font-family: Copperplate;
 	color: rgb(0, 0, 102);
+}
+
+header, footer, section, article, nav, aside {
+	display: block;
 }
