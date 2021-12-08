@@ -8,8 +8,9 @@ body { /* font-family +1 */
 
 h1 { /* font-size +1  font-weight +1 */
 	font-family: Bradley Hand;
-	font-size: 40px; 
-	font-weight: 300;
+	font-size: 90px; 
+	font-weight: 200;
+	color: white;
 }
 
 .intro-blurb { /* class +1  font-style +1 */
@@ -33,6 +34,14 @@ h1 { /* font-size +1  font-weight +1 */
 
 .menu-item {
 
+}
+
+.home-image {
+	padding: 5px;
+	border-style: inset;
+	border-width: 5px;
+	margin: 20px;
+	background-color: rgb(74, 74, 125);
 }
 
 :any-link {
