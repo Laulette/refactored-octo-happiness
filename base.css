@@ -1,5 +1,6 @@
 body { /* font-family +1 */
-	font-family: Helvetica, sans-serif; 
+	font-family: Gill Sans, sans-serif; 
+	font-size: 100%;
 	background-color: white;
 	text-align: center;
 	color: black;
@@ -7,10 +8,16 @@ body { /* font-family +1 */
 }
 
 h1 { /* font-size +1  font-weight +1 */
-	font-family: Bradley Hand;
-	font-size: 90px; 
+	font-family: Optima;
+	font-size: 4em; 
 	font-weight: 200;
 	color: white;
+	margin: 0px 0px 5px 0px;
+	background-color: rgb(74, 74, 125);
+	padding: 25px 20px 25px 20px;
+	border: solid;
+	border-width: 3px 0px 3px 0px;
+	border-color: rgb(188, 171, 133);
 }
 
 .intro-blurb { /* class +1  font-style +1 */
@@ -55,15 +62,6 @@ a:hover {
 
 header, footer, section, article, nav, aside {
 	display: block;
-}
-
-header {
-	margin: 0px 0px 5px 0px;
-	background-color: rgb(251, 229, 208);
-	padding: 25px 20px 25px 20px;
-	border: solid;
-	border-width: 3px 0px 3px 0px;
-	border-color: rgb(188, 171, 133);
 }
 
 footer {
