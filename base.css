@@ -1,5 +1,5 @@
 body { /* font-family +1 */
-	font-family: Gill Sans, sans-serif; 
+	font-family: Optima, sans-serif; 
 	font-size: 100%;
 	background-color: white;
 	text-align: center;
@@ -16,7 +16,7 @@ h1 { /* font-size +1  font-weight +1 */
 	background-color: rgb(74, 74, 125);
 	padding: 25px 20px 25px 20px;
 	border: solid;
-	border-width: 3px 0px 3px 0px;
+	border-width: 3px 0px 0px 0px;
 	border-color: rgb(188, 171, 133);
 }
 
@@ -38,7 +38,8 @@ h2 {
 }
 
 .content { /* class +1 */  /* text-indent +1 */
-	margin: 10px 40px 40px 40px;
+	margin: 1vw;
+	padding: 10px 40px 40px 40px;
 }
 
 .menu-container { /* class +1 */
@@ -54,7 +55,7 @@ h2 {
 
 .gallery {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: flex-end;
 	align-items: center;
@@ -83,6 +84,14 @@ h2 {
 .home-button {
 	display: flex;
 	flex-direction: column;
+}
+
+.home-button-source {
+	font-size: 0.5em;
+}
+
+.image-source {
+	font-size: 0.5em;
 }
 
 .menu-container-wrapper {
@@ -150,7 +159,11 @@ img {
 }
 
 a:hover {
-	color: rgb(74, 74, 125);
+	color: #b38f00;
+}
+
+a:active {
+	color: #806600;
 }
 
 header, footer, section, article, nav, aside {
@@ -172,7 +185,7 @@ footer {
 }
 
 dt {
-	font-weight: 400;
+	font-weight: bold;
 	padding: 20px 0px 0px 0px;
 }
 
