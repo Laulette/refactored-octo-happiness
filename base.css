@@ -9,7 +9,6 @@ body { /* font-family +1 */
 
 h1 { /* font-size +1  font-weight +1 */
 	font-family: Optima;
-	text-align: center;
 	font-size: 6vw; 
 	font-weight: 200;
 	color: white;
@@ -23,7 +22,6 @@ h1 { /* font-size +1  font-weight +1 */
 
 h2 {
 	font-family: Optima;
-	text-align: center;
 	font-size: 2em;
 	font-weight: 100;
 	background-color: rgb(74, 74, 125);
