@@ -38,7 +38,7 @@ h2 {
 }
 
 .content { /* class +1 */  /* text-indent +1 */
-	margin: 10px 40px 0px 40px;
+	margin: 10px 40px 40px 40px;
 }
 
 .menu-container { /* class +1 */
@@ -165,3 +165,17 @@ footer {
 	background-color: rgb(74, 74, 125);
 }
 
+.list1 {
+	text-align: left;
+	margin: 0px 100px 0px 100px;
+	line-height: 150%;
+}
+
+dt {
+	font-weight: 400;
+	padding: 20px 0px 0px 0px;
+}
+
+.hand-and-a-half {
+	
+}
