@@ -179,6 +179,15 @@ footer {
 	bottom: 0;
 	width: 100%;
 	background-color: rgb(74, 74, 125);
+	text-align: center;
+}
+
+figure {
+	text-align: center;
+}
+
+ul {
+	line-height: 300%;
 }
 
 .list1 {
