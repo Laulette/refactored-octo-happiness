@@ -29,7 +29,7 @@ h2 {
 	padding: 20px 20px 20px 20px;
 	border: solid;
 	border-color: rgb(188, 171, 133);
-	border-width: 0px 0px 2px 0px;
+	border-width: 0px 0px 0px 0px;
 	margin: 0px;
 }
 
@@ -191,4 +191,8 @@ dt {
 
 .hand-and-a-half {
 	
+}
+
+.left-quote {
+	text-align: left;
 }
